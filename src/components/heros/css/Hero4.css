@@ -1,0 +1,23 @@
+.hero4 {
+    text-align: center;
+    padding: 2rem;
+    background: #f3f4f6;
+  }
+  
+  .hero4-main {
+    margin-bottom: 2rem;
+  }
+  
+  .hero4-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .hero4-item {
+    background: #0d9488;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,33 @@
+.hero5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background: #10b981;
+    color: white;
+  }
+  
+  .hero5-content {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .hero5-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .hero5 button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: white;
+    color: #10b981;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .hero5 button:hover {
+    background: #d1fae5;
+  }
+  

@@ -1,0 +1,33 @@
+.hero1 {
+    background-image: url('https://via.placeholder.com/1920x1080');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero1-overlay {
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .hero1 button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #10b981;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .hero1 button:hover {
+    background: #059669;
+  }
+  

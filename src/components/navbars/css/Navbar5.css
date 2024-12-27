@@ -1,0 +1,78 @@
+.navbar5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d9488;
+    padding: 1rem;
+    color: white;
+ 
+    margin: 0 auto; /* Centra el navbar en la pantalla */
+    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+  }
+  
+  .navbar5 .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .navbar5 .nav-links-left,
+  .navbar5 .nav-links-right {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+  }
+  
+  .navbar5 .nav-links-left a,
+  .navbar5 .nav-links-right a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar5 .nav-links-left a:hover,
+  .navbar5 .nav-links-right a:hover {
+    color: #d1fae5;
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .navbar5 {
+      flex-direction: column; /* Apila elementos verticalmente */
+      align-items: center; /* Centra todos los elementos horizontalmente */
+    }
+  
+    .navbar5 .logo {
+      margin: 1rem; /* Espaciado debajo del logo */
+    }
+  
+    .navbar5 .nav-links-left,
+    .navbar5 .nav-links-right {
+      width: 100%; /* Asegura que los enlaces ocupen todo el ancho */
+      justify-content: center; /* Centra los enlaces */
+    }
+  }
+  
+  /* Estilos para pantallas grandes */
+  @media (min-width: 769px) {
+    .navbar5 {
+      flex-direction: row; /* Elementos en línea */
+      align-items: center;
+    }
+  
+    .navbar5 .nav-links-left {
+      flex: 1; /* Enlaces a la izquierda */
+      justify-content: flex-start;
+    }
+  
+    .navbar5 .nav-links-right {
+      flex: 1; /* Enlaces a la derecha */
+      justify-content: flex-end;
+    }
+  
+    .navbar5 .logo {
+      flex: 0; /* Logo centrado */
+      margin: 1rem;
+    }
+  }
+  

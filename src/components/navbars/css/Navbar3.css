@@ -1,0 +1,60 @@
+.navbar3 {
+    align-items: flex-start;
+    background-color: #10b981;
+    padding: 1rem;
+    color: white;
+    width: 100%;
+    top: 0;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar3 .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar3 .menu-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    align-self: flex-end; /* Alinear el botón a la derecha */
+    justify-self: center;
+    
+  }
+  
+  .navbar3 .nav-links {
+    display: none; /* Ocultar enlaces por defecto */
+    flex-direction: column; /* Mostrar los enlaces en una columna */
+    gap: 1rem;
+    list-style: none;
+    text-decoration: none;
+    width: 100%; /* Asegurar que el menú ocupe todo el ancho */
+    margin-top: 1rem; /* Espaciado entre el botón y los enlaces */
+  }
+  
+  .navbar3 .nav-links.open {
+    display: flex; /* Mostrar los enlaces cuando el menú está abierto */
+  }
+  
+  .navbar3 .nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 0;
+  }
+  
+  .navbar3 .nav-links a:hover {
+    color: #f3f4f6; /* Efecto hover opcional */
+  }
+  
+  @media (min-width: 769px) {
+    .navbar3 .nav-links {
+      margin-top: 1rem; /* Mantener el espaciado en pantallas grandes */
+    }
+  }
+  
