@@ -1,0 +1,33 @@
+.services1 {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .services1 h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .services1-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .services1-card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .services1-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  

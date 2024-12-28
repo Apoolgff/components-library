@@ -1,34 +1,44 @@
 .hero3 {
-    height: 100vh;
-    background: linear-gradient(135deg, #0d9488, #1e3a8a);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .hero3-card {
-    background: white;
-    padding: 2rem;
-    text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  }
-  
-  .hero3 h1 {
-    margin-bottom: 1rem;
-  }
-  
-  .hero3 button {
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    background: #0d9488;
-    border: none;
-    color: white;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  .hero3 button:hover {
-    background: #0b8073;
-  }
-  
+  height: 100vh;
+  background: linear-gradient(135deg, #0d9488, #1e3a8a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero3-card {
+  background: white;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero3 h1 {
+  margin-bottom: 1rem;
+  font-size: 70px;
+}
+
+.hero3 p {
+    font-size: 30px;
+}
+
+.hero3 button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #0d9488;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero3 button:hover {
+  background: #0b8073;
+}

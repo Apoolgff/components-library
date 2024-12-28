@@ -13,7 +13,7 @@ const Hero2 = () => {
         <button>Get Started</button>
       </div>
       <div className="hero2-image">
-        <img src="https://via.placeholder.com/500" alt="Future" />
+        <img src="https://dummyimage.com/700x500/000/fff" alt="Future" />
       </div>
     </section>
   );

@@ -13,7 +13,7 @@ const Hero5 = () => {
         <button>Contact Us</button>
       </div>
       <div className="hero5-image">
-        <img src="https://via.placeholder.com/500x300" alt="Vision" />
+        <img src="https://dummyimage.com/1000x500/000/fff" alt="Vision" />
       </div>
     </section>
   );

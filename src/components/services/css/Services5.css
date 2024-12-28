@@ -1,0 +1,13 @@
+.services5 {
+    padding: 2rem;
+    text-align: center;
+    background: white;
+  }
+  
+  .services5-card {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    background: #e2e8f0;
+    border-radius: 8px;
+  }
+  

@@ -1,0 +1,22 @@
+.services4 {
+    padding: 2rem;
+    text-align: center;
+    background: #0f766e;
+    color: white;
+  }
+  
+  .services4 h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .services4 ol {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services4 ol li {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
