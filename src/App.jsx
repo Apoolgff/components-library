@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"
 import Navbars from "./components/Navbars"
 import Heros from "./components/Heros"
 import Services from './components/Services'
+import Contacts from './components/Contacts'
+import Cards from './components/Cards'
 import './App.css'
 
 const App = () => {
@@ -21,6 +23,12 @@ const App = () => {
               <li>
                 <Link to="/services">View Services</Link>
               </li>
+              <li>
+                <Link to="/contacts">View Contacts</Link>
+              </li>
+              <li>
+                <Link to="/cards">View Cards</Link>
+              </li>
             </ul>
           </nav>
         </header>
@@ -29,6 +37,8 @@ const App = () => {
             <Route path="/navbars" element={<Navbars />} />
             <Route path="/heros" element={<Heros />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/contacts" element={<Contacts />} />
+            <Route path="/cards" element={<Cards />} />
           </Routes>
         </main>
       </div>

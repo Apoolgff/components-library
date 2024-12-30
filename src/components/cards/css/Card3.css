@@ -1,0 +1,31 @@
+.card3 {
+    background: linear-gradient(135deg, #0d9488, #0f766e);
+    color: white;
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .card3:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transform: rotate(2deg) scale(1.02);
+  }
+  
+  .card3 h2 {
+    font-size: 2rem;
+  }
+  
+  .card3 p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .card3 {
+      padding: 1rem;
+    }
+  }

@@ -1,0 +1,22 @@
+.contact5 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  form {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .map {
+    flex: 1;
+    min-width: 300px;
+    background: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  

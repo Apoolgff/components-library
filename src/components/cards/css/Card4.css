@@ -1,0 +1,36 @@
+.card4 {
+    width: 300px;
+    height: 200px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.5s;
+    margin: 1rem auto;
+  }
+  
+  .card4:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .card4-header {
+    background: #0d9488;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .card4-body {
+    padding: 1rem;
+    display: none;
+  }
+  
+  .card4:hover .card4-body {
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    .card4 {
+      width: 90%;
+    }
+  }
+  
