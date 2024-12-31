@@ -5,6 +5,7 @@ import Heros from "./components/Heros"
 import Services from './components/Services'
 import Contacts from './components/Contacts'
 import Cards from './components/Cards'
+import Galeries from './components/Galeries'
 import './App.css'
 
 const App = () => {
@@ -15,19 +16,22 @@ const App = () => {
           <nav>
             <ul className="navigation">
               <li>
-                <Link to="/navbars">View Navbars</Link>
+                <Link to="/navbars">Ver Navbars</Link>
               </li>
               <li>
-                <Link to="/heros">View Heros</Link>
+                <Link to="/heros">Ver Heros</Link>
               </li>
               <li>
-                <Link to="/services">View Services</Link>
+                <Link to="/services">Ver Servicios</Link>
               </li>
               <li>
-                <Link to="/contacts">View Contacts</Link>
+                <Link to="/contacts">Ver Contactos</Link>
               </li>
               <li>
-                <Link to="/cards">View Cards</Link>
+                <Link to="/cards">Ver Cards</Link>
+              </li>
+              <li>
+                <Link to="/galeries">Ver Galerias</Link>
               </li>
             </ul>
           </nav>
@@ -39,6 +43,7 @@ const App = () => {
             <Route path="/services" element={<Services />} />
             <Route path="/contacts" element={<Contacts />} />
             <Route path="/cards" element={<Cards />} />
+            <Route path="/galeries" element={<Galeries />} />
           </Routes>
         </main>
       </div>

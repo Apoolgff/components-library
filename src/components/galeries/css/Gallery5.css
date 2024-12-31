@@ -1,0 +1,46 @@
+.gallery5 {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .slider {
+    display: flex;
+    overflow-x: auto; /* Permite el desplazamiento horizontal */
+    overflow-y: hidden; /* Evita el scroll vertical */
+    scroll-snap-type: x mandatory; /* Ajusta las imágenes al deslizar */
+    gap: 1rem;
+    padding: 1rem 0;
+    cursor: grab; /* Cambia el cursor cuando no estás arrastrando */
+  }
+  
+  .slider:active {
+    cursor: grabbing; /* Cambia el cursor mientras arrastras */
+  }
+  
+  .slide {
+    scroll-snap-align: center; /* Alinea al centro del contenedor */
+    flex: 0 0 auto; /* Evita que las imágenes se redimensionen automáticamente */
+    width: 300px; /* Tamaño fijo de las imágenes */
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto; /* Mantiene la proporción */
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .slide img:hover {
+    transform: scale(1.1); /* Ampliación en hover */
+  }
+  
+  /* Estilo para ocultar barras de desplazamiento */
+  .slider::-webkit-scrollbar {
+    display: none; /* Oculta la barra en navegadores WebKit */
+  }
+  
+  .slider {
+    -ms-overflow-style: none; /* Oculta la barra en IE y Edge */
+    scrollbar-width: none; /* Oculta la barra en Firefox */
+  }
+  
