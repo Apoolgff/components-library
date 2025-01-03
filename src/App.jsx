@@ -6,6 +6,7 @@ import Services from './components/Services'
 import Contacts from './components/Contacts'
 import Cards from './components/Cards'
 import Galeries from './components/Galeries'
+import Buttons from './components/Buttons'
 import './App.css'
 
 const App = () => {
@@ -33,6 +34,9 @@ const App = () => {
               <li>
                 <Link to="/galeries">Ver Galerias</Link>
               </li>
+              <li>
+                <Link to="/buttons">Ver Botones</Link>
+              </li>
             </ul>
           </nav>
         </header>
@@ -44,6 +48,7 @@ const App = () => {
             <Route path="/contacts" element={<Contacts />} />
             <Route path="/cards" element={<Cards />} />
             <Route path="/galeries" element={<Galeries />} />
+            <Route path="/buttons" element={<Buttons />} />
           </Routes>
         </main>
       </div>

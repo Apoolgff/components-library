@@ -1,0 +1,31 @@
+.button5 {
+    background-color: #ef4444;
+    color: white;
+    padding: 12px 32px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    width: 20%;
+  }
+  
+  .button5::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0%;
+    height: 0%;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.3s ease, height 0.3s ease;
+  }
+  
+  .button5:hover::after {
+    width: 200%;
+    height: 200%;
+  }
+  

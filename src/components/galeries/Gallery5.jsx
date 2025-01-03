@@ -3,13 +3,13 @@ import "./css/Gallery5.css";
 
 const Gallery5 = () => {
   const images = [
-    "https://via.placeholder.com/300x200",
-    "https://via.placeholder.com/300x200",
-    "https://via.placeholder.com/300x200",
-    "https://via.placeholder.com/300x200",
-    "https://via.placeholder.com/300x200",
-    "https://via.placeholder.com/300x200",
-    "https://via.placeholder.com/300x200",
+    "https://dummyimage.com/300x200/000/fff",
+    "https://dummyimage.com/300x200/000/fff",
+    "https://dummyimage.com/300x200/000/fff",
+    "https://dummyimage.com/300x200/000/fff",
+    "https://dummyimage.com/300x200/000/fff",
+    "https://dummyimage.com/300x200/000/fff",
+    "https://dummyimage.com/300x200/000/fff",
   ];
 
   const sliderRef = useRef(null);

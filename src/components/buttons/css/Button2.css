@@ -1,0 +1,16 @@
+.button2 {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    width: 20%;
+  }
+  
+  .button2:hover {
+    transform: translateY(-5px);
+  }
+  
